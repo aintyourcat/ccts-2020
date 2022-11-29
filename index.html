@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>UKM Computer Club</title>
+        <link rel="icon" href="resources/images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+        <link rel="stylesheet" href="vendors/fontawesome-free-5.9.0-web/css/all.css" type="text/css">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <div class="navbar-container">
+            <div class="navbar" id="home">
+                <a href="#" class="button"><b>UKM Computer Club</b></a>
+                <div class="right-aligned hide-small hide-medium">
+                    <a href="#" class="button">Berita</a>
+                    <a href="#" class="button">Galeri</a>
+                    <a href="#" class="button">Kegiatan</a>
+                    <a href="#" class="button">Daftar</a>
+                </div>
+                <!--Replace the right aligned buttons with a menu icon-->
+                <a href="javascript:void(0)" class="button right-aligned hide-large" onclick="sidebar_open()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <!--Sidebar-->
+        <nav class="sidebar hide-large" id="sidebar">
+            <a href="javascript:void(0)" onclick="sidebar_close()" class="button close" >Tutup ×</a>
+            <a href="#" class="button">Berita</a>
+            <a href="#" class="button">Galeri</a>
+            <a href="#" class="button">Kegiatan</a>
+            <a href="#" class="button">Daftar</a>
+        </nav>
+        <!--Header-->
+        <header>
+            <div>
+                <img src="resources/images/ukm_logo.png"/>
+                <h1>Computer Club</h1>
+                <p>UKM Computer Club merupakan Unit Kegiatan Mahasiswa yang bertujuan sebagai tempat untuk mengembangkan minat dan bakat mahasiswa Politeknik Negeri Bali dibidang per-komputeran.</p>
+            </div>
+        </header>
+        <!--Division Section-->
+        <div class="section-container bgcolor1">
+            <h2>DIVISI</h2>
+            <p>Pilih sesuai minat dan bakatmu.</p>
+            <div class="division-container">
+                <div class="division">
+                    <p><i class="fas fa-photo-video fa-6x"></i></p>
+                    <h3>Creative Design</h3>
+                    <p>Untuk kalian yang tertarik dengan photo/videography, animasi dan editing.<p>
+                </div>
+                <div class="division">
+                    <p><i class="fas fa-gamepad fa-6x"></i></p>
+                    <h3>Game</h3>
+                    <p>Suka bermain game dan tertarik terjun langsung dalam produksinya? Pilih divisi Game.</p>
+                </div>
+                <div class="division">
+                    <p><i class="fas fa-file-word fa-6x"></i><p>
+                    <h3>Office</h3>
+                    <p>Kuasai Microsoft Office dengan mempelajarinya lebih dalam bersama divisi Office!</p>
+                </div>
+                <div class="division">
+                    <p><i class="fas fa-globe fa-6x"></i></p>
+                    <h3>Web</h3>
+                    <p>Pilih divisi Web dan pelajari website developing dari basic hingga MySQL.</p>
+                </div>
+            </div>
+        </div>
+        <!--Activities Section-->
+        <div class="section-container bgcolor2">
+            <h2>AKTIVITAS</h2>
+            <p>Sekilas tentang kegiatan dan program kerja kami.</p>
+            <div class="row">
+                <div class="column-big">
+                    <img src="resources/images/activities/1.jpg"/>
+                </div>
+                <div class="column">
+                    <img src="resources/images/activities/2.jpg"/>
+                    <img src="resources/images/activities/3.jpg"/>
+                </div>
+                <div class="column">
+                    <img src="resources/images/activities/4.jpg"/>
+                    <img src="resources/images/activities/5.jpg"/>
+                </div>
+            </div>
+        </div>
+        <!--About Us Section-->
+        <div class="section-container bgcolor3">
+            <h2>TENTANG KAMI</h2>
+            <p>Tetap terhubung bersama kami, pada:</p>
+            <div class="content-container">
+                <div class="contact">
+                        <p><i class="fas fa-map-marker-alt fa-fw"></i>Politeknik Negeri Bali</p>
+                        <p><i class="fas fa-phone-alt fa-fw"></i>+6281234567890</p>
+                        <p><i class="fas fa-envelope fa-fw"></i>ukmcomputerclub@email.com</p>
+                        <form action="#" target="_blank">
+                            <input type="text" placeholder="Email" required name="Email">
+                            <input type="text" placeholder="Subjek" required name="Subject">
+                            <textarea placeholder="Tulis pesanmu disini" required name="komentar" wrap="hard" rows="7"></textarea>
+                            <button type="submit"><i class="fa fa-paper-plane"></i> KIRIM</button>
+                        </form>
+                </div>
+                <div class="map">
+                    <a href="https://www.openstreetmap.org/#map=17/-8.80038/115.16119" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="section-container">
+            <a href="#home" class="button"><i class="fas fa-arrow-up"></i>Kembali ke atas</a>
+            <div>
+                <a href="https://instagram.com/ukmcomputerclub" target="_blank"><i class="far fa-instagram fa-2x"></i></a>
+                <a href="https://line.me/R/ti/g/ebl7029n" target="_blank"><i class="far fa-line fa-2x"></i></a>
+            </div>
+            <p><i class="fas fa-copyright"></i> 2020 UKM Computer Club</p>
+        </footer>
+        <script src="resources/js/script.js" type="text/javascript"></script>
+    </body>
+</html>
